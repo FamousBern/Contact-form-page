@@ -1,0 +1,125 @@
+body {
+  background: #eee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  height: auto;
+}
+
+main {
+  max-width: 80%;
+  margin: auto;
+}
+
+.content-wrap {
+  margin-top: 1rem;
+  text-align: center;
+}
+.content-wrap h2,
+.content-wrap p {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  background: #0f292f;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 4em 3em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 85, 0.4);
+}
+
+.content h1 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.btn {
+  text-decoration: none;
+  border: 1px solid #14a098;
+  padding: 0.5rem 3rem;
+  border-radius: 24px;
+  color: #333;
+  text-transform: uppercase;
+  transition: background 0.4s ease-in;
+}
+
+.btn:hover {
+  background: #14a098;
+  color: #fff;
+}
+
+form {
+  border-radius: 8px;
+  background: #c9c9c9;
+  padding: 1em 2em;
+}
+
+form h2 {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  padding: 8px;
+  color: #000;
+}
+form h2 {
+  color: #000;
+}
+form input[type="text"],
+input[type="email"],
+textarea,
+select {
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+}
+
+#section-a {
+  margin-top: 20px;
+}
+
+#section-a .box {
+  padding: 2em;
+  background: #e90f8e;
+  color: #fff;
+}
+
+#section-a .box:first-child {
+  background: #14a098;
+}
+
+footer {
+  margin-top: 3em;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 1em 1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #14a098;
+}
+
+@media (min-width: 700px) {
+  .content-wrap {
+    width: 800px;
+    margin: auto;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+  }
+
+  main {
+    margin-top: 20px;
+  }
+}
